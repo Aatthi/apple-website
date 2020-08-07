@@ -25,19 +25,13 @@
 	justify-content: center;
 	align-content: center;
 	list-style: none;
-	background: rgb(255, 255, 255);
-	background: linear-gradient(
-		90deg,
-		rgba(255, 255, 255, 1) 0%,
-		rgba(61, 63, 64, 1) 100%,
-		rgba(255, 255, 255, 1) 100%
-	);
 	margin: 0 450px;
-	border-radius: 15px;
+	border-radius: 10px;
 }
 
 .nav-bar li {
-	padding: 4px 30px;
+	padding: 10px 30px;
+	background-color: linear-gradient(rgb(72, 72, 72) 10%, rgb(103, 103, 103) 85%, rgb(82, 82, 82) 90%);
 }
 
 .heading-text {
